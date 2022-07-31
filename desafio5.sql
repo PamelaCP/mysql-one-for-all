@@ -5,4 +5,3 @@ ON son.album_id = H.song_id
 GROUP BY son.song
 ORDER BY reproducoes DESC, song ASC
 LIMIT 2;
-    
