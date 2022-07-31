@@ -87,7 +87,7 @@ VALUES
   ("Wouldn't It Be Nice", 213, 10),
   ("Baby", 136, 10),
   ("You Make Me Feel So..", 83, 10);
-  
+
 CREATE TABLE SpotifyClone.plans(
     plan_id INT AUTO_INCREMENT PRIMARY KEY,
     plan VARCHAR(20) NOT NULL,
@@ -122,7 +122,7 @@ VALUES
   ('Carol', 19, '2018-02-14', 2),
   ('Angelina', 42, '2018-04-29', 4),
   ('Paul', 46, '2017-01-17', 4);
-  
+
   CREATE TABLE SpotifyClone.following_artist(
     user_id INT NOT NULL,
     FOREIGN KEY (user_id) REFERENCES SpotifyClone.users(user_id),
@@ -155,7 +155,7 @@ VALUES
   (9, 3),
   (10, 2),
   (10, 6);
-  
+
   CREATE TABLE SpotifyClone.playback(
     history DATETIME NOT NULL,
     user_id INT NOT NULL,
@@ -204,4 +204,4 @@ VALUES
   (10, 20, '2017-02-06 08:21:34'),
   (10, 21, '2017-12-04 05:33:43'),
   (10, 12, '2017-07-27 05:24:49'),
-  (10, 13, '2017-12-25 01:03:57'); 
+  (10, 13, '2017-12-25 01:03:57');  
